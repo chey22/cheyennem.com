@@ -1,0 +1,34 @@
+.rightContainer {
+  width: calc(50% - 35px);
+  height: 100%;
+  right: 0;
+  top: 0;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*Hide on small screeen*/
+  @media (max-width: 990px) {
+    & {
+      display: none;
+    }
+  }
+  .github {
+    opacity: 0.25;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 200ms all ease-out;
+    img {
+      height: 20px;
+      margin-bottom: -4px;
+      padding-right: 5px;
+    }
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.description {
+  font-size: 19px;
+  padding-top: 40px;
+  @media (max-width: 990px) {
+    font-size: 17px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #689229;
+    white-space: nowrap;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.email {
+  font-weight: 400;
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 45px;
+  padding: 7px 12px 8px;
+  text-decoration: none;
+  color: white;
+  background-color: #689229;
+  box-shadow: 0px 0px #ccdeba;
+  transition: all 100ms ease-in-out;
+  &:hover {
+    box-shadow: 10px 11px #ccdeba;
+  }
+}
