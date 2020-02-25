@@ -14,7 +14,7 @@ import styles from "./styles.scss";
 const Resume = props => (
   <div className={styles.resume}>
     <LeftContainer>
-      <Head title="Colton Reid | Experience" />
+      <Head title="Cheyenne Mangum | Experience" />
       <Menu />
       <Name data={props.homeData} />
 

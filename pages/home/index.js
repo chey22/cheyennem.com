@@ -14,7 +14,7 @@ import styles from "./styles.scss";
 const Home = props => (
   <div className={styles.home}>
     <LeftContainer>
-      <Head title="Colton Reid" />
+      <Head title="Cheyenne Mangum" />
       <Menu />
       <Bio data={props.homeData} />
     </LeftContainer>
