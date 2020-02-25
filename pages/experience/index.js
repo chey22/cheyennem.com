@@ -45,7 +45,7 @@ const Resume = props => (
 
 //Async get data from Prismic
 Resume.getInitialProps = async () => {
-  const apiEndpoint = "https://coltonreid.cdn.prismic.io/api/v2";
+  const apiEndpoint = "https://cheyennem-com.cdn.prismic.io/api/v2";
   const api = await Prismic.api(apiEndpoint);
 
   const homeData = await api.query(

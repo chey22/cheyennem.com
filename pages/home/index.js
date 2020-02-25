@@ -24,7 +24,7 @@ const Home = props => (
 
 //Async get data from Prismic
 Home.getInitialProps = async () => {
-  const apiEndpoint = "https://coltonreid.cdn.prismic.io/api/v2";
+  const apiEndpoint = "https://cheyennem-com.cdn.prismic.io/api/v2";
   const api = await Prismic.api(apiEndpoint);
 
   const homeData = await api.query(
@@ -32,7 +32,7 @@ Home.getInitialProps = async () => {
   );
 
   //Calculate age
-  const age = moment().diff("1992-08-04", "years");
+  const age = moment().diff("1991-07-22", "years");
 
   //Replace [age] in bio with my actual age
   homeData.results[0].data.bio[0].text = homeData.results[0].data.bio[0].text.replace(
