@@ -2114,6 +2114,11 @@ find-up@^1.0.0:
     path-exists "^2.0.0"
     pinkie-promise "^2.0.0"
 
+first@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/first/-/first-0.0.3.tgz#129a931ebf81d3505d85f7c05c7b62d0c4ce6a0e"
+  integrity sha1-EpqTHr+B01BdhffAXHti0MTOag4=
+
 flatten@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/flatten/-/flatten-1.0.2.tgz#dae46a9d78fbe25292258cc1e780a41d95c03782"

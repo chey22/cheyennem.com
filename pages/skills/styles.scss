@@ -1,1 +1,22 @@
-.skills {}
+.skills {
+  font-size: 18px;
+  ul {
+    margin: 0;
+    padding-left: 22px;
+  }
+  a {
+    color: unset;
+    text-decoration: none;
+  }
+  @media (max-width: 990px) {
+    font-size: 16px;
+  }
+
+  p {
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 45px;
+    border-bottom: 5px solid #ccdeba;
+    text-transform: uppercase;
+  }
+}
