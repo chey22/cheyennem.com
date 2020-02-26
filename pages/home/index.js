@@ -6,6 +6,7 @@ import moment from "moment";
 import Head from "@components/Head";
 import Menu from "@components/Menu";
 import Bio from "@components/Bio";
+// import Skills from "@components/Skills";
 import LeftContainer from "@components/LeftContainer";
 import RightContainer from "@components/RightContainer";
 

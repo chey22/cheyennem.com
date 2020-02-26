@@ -56,9 +56,14 @@ Resume.getInitialProps = async () => {
     Prismic.Predicates.at("document.type", "resume")
   );
 
+  const skillsData = await api.query(
+    Prismic.Predicates.at("document.type", "skills")
+  );
+
   return {
     homeData: homeData.results[0].data,
-    resumeData: resumeData.results[0].data
+    resumeData: resumeData.results[0].data,
+    skillsData: skillsData.results[0].data
   };
 };
 
