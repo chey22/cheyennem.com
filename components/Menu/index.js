@@ -30,6 +30,7 @@ const Menu = props => (
     <ActiveLink href="/">Home</ActiveLink>
     <ActiveLink href="/experience">Experience</ActiveLink>
     <ActiveLink href="/skills">Skills</ActiveLink>
+    <ActiveLink href="/skills">Portfolio</ActiveLink>
   </div>
 );
 
