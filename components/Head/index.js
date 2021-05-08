@@ -1,5 +1,6 @@
 import NextHead from "next/head";
 import { string } from "prop-types";
+//import love from '../../static'
 
 const defaultDescription = "";
 const defaultOGURL = "";
@@ -14,7 +15,7 @@ const Head = props => (
       content={props.description || defaultDescription}
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    {/* <link rel="icon" href="/static/favicon.ico" /> */}
+    <link rel="icon" sizes='20*2' href="/static/headshot.jpg" />
     <meta property="og:url" content={props.url || defaultOGURL} />
     <meta property="og:title" content={props.title || ""} />
     <meta
